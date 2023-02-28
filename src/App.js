@@ -8,6 +8,8 @@ Amplify.configure(awsExports);
 
 export default function App() {
   return (
+    <div>
+    <br />
     <Authenticator>
       {({ signOut, user }) => (
         <main>
@@ -16,5 +18,6 @@ export default function App() {
         </main>
       )}
     </Authenticator>
+    </div>
   );
 }
