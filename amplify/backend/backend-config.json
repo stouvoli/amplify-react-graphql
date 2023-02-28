@@ -1,0 +1,36 @@
+{
+  "auth": {
+    "amplifyreactgraphql": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [
+            "REQUIRES_LOWERCASE",
+            "REQUIRES_NUMBERS",
+            "REQUIRES_SYMBOLS",
+            "REQUIRES_UPPERCASE"
+          ],
+          "passwordPolicyMinLength": 10
+        },
+        "signupAttributes": [
+          "PHONE_NUMBER",
+          "NAME",
+          "FAMILY_NAME",
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
+    }
+  }
+}

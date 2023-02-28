@@ -1,0 +1,12 @@
+/***************************************************************************
+ * The contents of this file were generated with Amplify Studio.           *
+ * Please refrain from making any modifications to this file.              *
+ * Any changes to this file will be overwritten when running amplify pull. *
+ **************************************************************************/
+
+export { default as HeroLayout3 } from "./HeroLayout3";
+export { default as MyIcon } from "./MyIcon";
+export { default as ReviewCard } from "./ReviewCard";
+export { default as HeroLayout1 } from "./HeroLayout1";
+export { default as MarketingPricing } from "./MarketingPricing";
+export { default as studioTheme } from "./studioTheme";
